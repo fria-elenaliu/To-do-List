@@ -10,6 +10,7 @@ function newItem(){
        alert("You must write something!");
      } else {
        $('#list').append(li);
+       document.querySelector('#input').value = '';
      }
   
    //2. Crossing out an item from the list of items:
